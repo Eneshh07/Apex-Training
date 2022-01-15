@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MinimumAmountRule</fullName>
+    <active>true</active>
+    <description>Whenever a Sales Rep is creating/editing an Opportunity. Minimum Amount needs to be entered as $20000.</description>
+    <errorConditionFormula>Amount  &lt; 20000</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>Minimum Amount for an Opportunity should $20000.</errorMessage>
+</ValidationRule>

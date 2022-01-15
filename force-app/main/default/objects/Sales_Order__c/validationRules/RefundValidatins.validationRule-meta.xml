@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RefundValidatins</fullName>
+    <active>true</active>
+    <errorConditionFormula>Number_of_Refunds__c = 0  &amp;&amp;    ISPICKVAL(Status__c, &quot;Refund&quot;) &amp;&amp; ISCHANGED(Status__c)</errorConditionFormula>
+    <errorMessage>status can not be changed</errorMessage>
+</ValidationRule>

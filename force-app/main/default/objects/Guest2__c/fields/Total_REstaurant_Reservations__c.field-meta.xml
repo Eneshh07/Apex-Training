@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_REstaurant_Reservations__c</fullName>
+    <externalId>false</externalId>
+    <label>Total  REstaurant Reservations</label>
+    <summaryFilterItems>
+        <field>Guest_Reservation2__c.Reservation_Date_Time__c</field>
+        <operation>notEqual</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>Guest_Reservation2__c.Guest2__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

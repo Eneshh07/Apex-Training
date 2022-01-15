@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TracingNumberRule</fullName>
+    <active>true</active>
+    <errorConditionFormula>LEN(TrackingNumber__c) &lt; 10</errorConditionFormula>
+    <errorDisplayField>TrackingNumber__c</errorDisplayField>
+    <errorMessage>Tracking Number cannot be below 10 digit.</errorMessage>
+</ValidationRule>

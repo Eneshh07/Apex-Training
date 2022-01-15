@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multiplethecoursefees</fullName>
+    <active>true</active>
+    <errorConditionFormula>MOD( Course_Fees__c,100)  &lt;&gt; 0</errorConditionFormula>
+    <errorDisplayField>Course_Fees__c</errorDisplayField>
+    <errorMessage>Course Fees must be a multiple of 100 only.</errorMessage>
+</ValidationRule>

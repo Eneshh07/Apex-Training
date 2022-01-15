@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_REstaurabt_reservation_date_time__c</fullName>
+    <externalId>false</externalId>
+    <label>Last REstaurabt reservation date time</label>
+    <summaryForeignKey>Guest_Reservation2__c.Guest2__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

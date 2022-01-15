@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SalesRepClosedDate</fullName>
+    <active>true</active>
+    <errorConditionFormula>YEAR(CloseDate) &lt;&gt; YEAR(TODAY())</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Closed Date must be in the Current Year only</errorMessage>
+</ValidationRule>
